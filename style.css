@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  height: 100%;
+  background-color: #1d6cad;
+  width: 100%;
+}
+
+#input-name,
+#number-teams {
+  height: 25px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: 1px solid cornflowerblue;
+}
+
+button {
+  height: 30px;
+  margin: 12px 5px;
+  border-radius: 5%;
+  color: white;
+  background-color: cornflowerblue;
+  border: 0.5px solid cornflowerblue;
+}
+
+li {
+  list-style: none;
+}
+.players-name {
+  background-color: rgb(15, 15, 155);
+  box-shadow: 2px 5px 1px rgb(15, 15, 155);
+  border-radius: 5%;
+  color: white;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  padding: 10px 25px;
+}
+.players-name h2 {
+  text-align: center;
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.teams .team {
+  background-color: rgb(10, 62, 158);
+  box-shadow: 2px 5px 5px rgb(31, 31, 100);
+  margin: 10px 10px;
+  padding: 10px 20px;
+  border-radius: 10%;
+  color: #d3e4f8;
+}
+.teams .team h3 {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.fixed{
+    margin-top: 25px;
+}
