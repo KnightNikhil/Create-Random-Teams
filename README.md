@@ -1,5 +1,3 @@
-<h2>Create random teams</h2>
-<h5>
+#Create random teams
 Randomise your teammates based on the the number of teams to create.
-  </h5>
-
+![caption](/teammates-videp.mp4)
